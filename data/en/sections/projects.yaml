@@ -21,28 +21,28 @@ buttons:
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
+- name: ¿Cuánto se comparte un artículo?
+  logo: /images/sections/projects/python.png
+  role: Developer
   timeline: "March 2018 - Present"
   repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+  summary: Razones por las que un artículo se comparte.
+  tags: ["professional", "python", "regresión lineal"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
+- name: Indicadores diarios
+  logo: /images/sections/projects/pbi.png
   role: Developer
   timeline: "Jun 2018 - Present"
   repo: https://github.com/tensorflow/tensorflow
   #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
+  summary: Automatización y visualización de indicadores diarios y semanales.
   tags: ["professional", "machine-learning","academic"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
+- name: Árbol de decisión
+  logo: /images/sections/projects/python.png
   role: Owner
   timeline: "Jun 2019 - Present"
   repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
+  summary: Predicción de artistas que alcanzan el No. 1 del top 100 Billboard.
   tags: ["hobby","hugo","theme","professional"]

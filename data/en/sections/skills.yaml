@@ -11,16 +11,22 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: "/images/sections/skills/kubernetes.png"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+- name: Ingeniería Química
+  logo: "/images/sections/skills/iq.png"
+  summary: "Capacidad de análisis y resolución de problemas, optimización y simulación de equipos y procesos, haciendo uso de distintas disciplinas, así como de software especializado como Aspen Plus."
+  url: https://www.aspentech.com/en/resources/brochure/aspen-plus-simulacion-de-proceso-industria-quimia#:~:text=Aspen%20Plus%20fomenta%20el%20desempe%C3%B1o,qu%C3%ADmicos%20de%20especialidad%20y%20farmac%C3%A9utica.
+  
+- name: Programación
+  logo: "/images/sections/skills/python.png"
+  summary: "- Python como lenguaje principal, con capacidad de visualizar, manejar y analizar datos.
 
-- name: Go Development
-  logo: "/images/sections/skills/go.png"
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+            - Power BI como herramienta de visualización y automatización de datos.
+            
+            - Excel"
 
-- name: Cloud Computing
-  logo: "/images/sections/skills/cloud.png"
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: Lenguajes
+  logo: "/images/sections/skills/language.jpg"
+  summary: "- Español: lengua materna
+
+            - Inglés: nivel avanzado. Academia Europea."
+  url: https://academiaeuropea.com/

@@ -18,25 +18,40 @@ company:
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate chemical. I use Python for [Kubernetes](https://kubernetes.io/) using Machine Learning. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'Soy un apasionado Ingeniero Químico con un gusto por la programación. Me encuentro siempre en constante aprendizaje para implementar diferentes herramientas que permitan un aprendizaje más rápido y eficiente. Uso [Python](https://www.python.org/) para la carga, visualización, manejo y análisis de datos.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://github.com/edsevand"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/eduardo-israel-sevilla-andrade-028076196/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/sev_edu"
+  
+- name: Email
+  icon: "fas fa-envelope"
+  url: "edsevand@gmail.com"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: Liderazgo
-  percentage: 85
-  color: blue
 - name: Adaptación
   percentage: 90
+  color: blue
+- name: Resolución de problemas
+  percentage: 85
   color: green
 - name: Trabajo en equipo
   percentage: 90
   color: yellow
+- name: Proactivo
+  percentage: 90
+  color: orange
