@@ -1,16 +1,16 @@
 ---
 title: "Construcción del modelo"
 date: 2022-10-28
-description: Modelo de regresión lineal
+description: Modelo de regresión lineal Simple
 menu:
     sidebar:
-        name: Modelo simple y múltiple
+        name: Regresión Lineal Simple
         identifier: LR 1
         parent: LR
         weight: 100
 ---
 
-## <p align="center">¿Cuántas veces se comparte un artículo?</p>
+# <p align="center">¿Cuántas veces se comparte un artículo?</p>
 
 
 <p align="justify">A continuación se presenta un ejercicio en el que se muestra un dataset con datos de diversos 
@@ -20,7 +20,7 @@ menu:
 
 ***
 
-### Pasos iniciales
+## Pasos iniciales
 
 <p align="justify">Se importan las siguientes librerías:</p>
 
@@ -80,7 +80,7 @@ df.info()
 
 > <p align="justify">Destacar la cantidad total de datos faltantes "NaN" en la columna "# of comments".</p>
 
-#### Correlación de los datos
+### Correlación de los datos
 
 <p align="justify">Conocer como se correlacionan las variables (columnas) del dataset es un punto de partida excelente, 
     y permite seleccionar las mejores variables para un mejor modelo. La siguiente línea de código muestra un cuadro 
@@ -101,11 +101,7 @@ plt.show()
     probabilidad el modelo a construir no tendra una buena eficacia. De cualquier manera se óptara por seleccionar el mejor 
     par y se intentarán diferentes técnicas para mejorar el modelo.</p>
 
-***
-
-### Data wrangling 
-
-<p align="justify">Lo anterior deja distintas consideraciones:
+<p align="justify">El análisis anterior arroja distintas consideraciones:
 
 - Renombrar las distintas columnas del dataset de una manera más práctica y evitar errores al construir el modelo
 - Reemplazar valores NaN en columna "# of comments"
@@ -114,6 +110,10 @@ plt.show()
     - Shares~Comments 
 - Posibilidad de mejorar el modelo aplicando regresión múltiple y eliminando outliers
 </p>
+
+***
+
+## Data wrangling 
 
 <p align="justify">Primeramente, se procede a renombrar las columnas del dataset, debido a que existen espacios en 
     los nombres y para la librería causa conflicto. La siguiente línea de código lo muestra.</p>
@@ -132,7 +132,7 @@ df["Comments"] = df["Comments"].fillna(0)
 
 ***
 
-### Construcción del modelo
+## Construcción del modelo
 
 <p align="justify">Para la construcción del modelo se utiliza una función que crea el modelo y devuelve el resultado 
     con las estadísticas a tener en cuenta para verificar la eficiencia del modelo.</p>
@@ -185,8 +185,8 @@ rswordc, pswordc = linreg(df, "Links", "Shares")
     Links  0.077365  2.764183e+11  41695.081094  1.491862
 
 {{< vs 2 >}}
-<p align="justify">Ambos modelos arrojan modelos muy malos, con una eficacia muy pequeña y un %Error realmente alto. 
-    Estos resultados eran evidentes en la gráfica/escala de correlación, ya que ninguno alcanzaba el 0.6. Queda la 
-    posibilidad de tratar de mejorar los modelos si se eliminan los <strong>outliers</strong> y considerar una 
+<p align="justify">Ambos casos arrojan modelos deficientes, con una eficacia muy pequeña y un %Error realmente alto. 
+    Estos resultados eran evidentes en la escala de correlación, ya que ninguno alcanzaba el 0.6. Queda la 
+    posibilidad de tratar de mejorar los modelos si se eliminan los <strong>outliers</strong> y se aplica una 
     <strong>regresión múltiple</strong></p>
 
