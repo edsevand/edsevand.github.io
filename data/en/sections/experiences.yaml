@@ -15,7 +15,7 @@ experiences:
     url: "https://www.nestle.com.mx/brands/gerber"
     location: Querétaro, Querétaro
     # company overview
-    overview: Nestlé, Gerber is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Nestlé, Gerber es una compañia ampliamente reconocida por el desarrollo de la alimentación para mejorar la calidad de vida, hoy y para las futuras generaciones.
   positions:
   - designation: Practicante de Supply Chain
     start: Jun 2021
@@ -23,6 +23,6 @@ experiences:
     end: Dec 2021
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Realice estudio de tiempos y movimientos en el área de almacén
+    - Trabajé con distintas personas encargadas del almacén, así como distintos trabajadores para llevar a cabo el estudio.
+    - Implementé herramientas Lean Manufacturing para eficientar la pnatilla de trabajo.
