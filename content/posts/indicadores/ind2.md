@@ -21,18 +21,28 @@ menu:
 
 <p align="justify">
     Se requiere un formato vertical (tablas) donde los encabezados son los que se toman en cuenta por Power BI para tomar los datos 
-    de toda esa columna y construir las visualizaciones que se requieran para el indicador.</p>
+    de toda la columna y construir las visualizaciones que se requieran para el indicador.</p>
 
 ***
 
-### Alojamiento
+### Alojamiento y conexión a Power BI
 
 <p align="justify">Existen diferentes maneras de alojar los datos de todas las distintas opciones que presenta Power BI y para 
     cada caso y disponibilidad se puede encontrar la mejor manera. Una de estas maneras es alojar un archivo Excel en un grupo de
     Teams que permita una conexión directa con Power BI, de manera que la automatización y presentación de los datos sea eficiente.</p>
 
 {{< vs 1 >}}
-{{< figure src="/posts/images/indicadores/ind2_2.png">}}
+{{< figure src="/posts/images/indicadores/ind2_1.png">}}
+
+<p align="justify">La conexión a Power BI se realiza por medio de un <strong>Origen Web</strong> debido al alojamiento 
+    previo del archivo Excel en Teams, siendo necesario obtener el path (ruta de acceso) del mismo. Este se encuentra en 
+    la parte de <strong>información</strong> del archivo, como se muestra en la siguiente imagen.</p>
+
+
+{{< vs 1 >}}
+{{< figure src="/posts/images/indicadores/ind2_3.png">}}
+
+> <p align="justify"><strong>Es necesario eliminar la parte final del path "?web=1" al momento de copiar la ruta en Power BI</strong></p>
 
 ***
 
