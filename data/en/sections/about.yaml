@@ -27,9 +27,9 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://github.com/edsevand"
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/eduardo-israel-sevilla-andrade-028076196/"
+#- name: LinkedIn
+#  icon: "fab fa-linkedin"
+#  url: "https://www.linkedin.com/in/eduardo-israel-sevilla-andrade-028076196/"
 
 - name: Twitter
   icon: "fab fa-twitter"
