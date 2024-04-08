@@ -21,19 +21,11 @@ buttons:
 
 # your projects
 projects:
-- name: ¿Cuánto se comparte un artículo?
+- name: Keyword-linked table correlations 
   logo: /images/sections/projects/python.png
   role: Developer
-  timeline: "March 2018 - Present"
-  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  timeline: "Present"
+  repo: https://github.com/edsevand/SQL_Cars # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Razones por las que un artículo se comparte.
-  tags: ["professional", "python", "regresión lineal"]
-
-- name: Árbol de decisión
-  logo: /images/sections/projects/python.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  #repo: https://github.com/hossainemruz/toha
-  summary: Predicción de artistas que alcanzan el No. 1 del top 100 Billboard.
-  tags: ["professional","machine-learning","python"]
+  summary: Analysis of data concerning automobile sales using SQL
+  tags: ["SQL", "Data Analyst"]
