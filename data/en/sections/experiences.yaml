@@ -10,19 +10,36 @@ section:
 
 # Your experiences
 experiences:
+
 - company:
-    name: Nestlé, Gerber.
-    url: "https://www.nestle.com.mx/brands/gerber"
-    location: Querétaro, Querétaro
+    name: Towa Software.
+    url: "https://purina.com.mx/purina"
+    location: Remote Job
     # company overview
-    overview: Nestlé, Gerber es una compañia ampliamente reconocida por el desarrollo de la alimentación para mejorar la calidad de vida, hoy y para las futuras generaciones.
+    overview:
   positions:
-  - designation: Practicante de Supply Chain
-    start: Jun 2021
+  - designation: Data Analyst
+    start: Aug. 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    end: Dec 2021
+    end: Present
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Realice estudio de tiempos y movimientos en el área de almacén
-    - Trabajé con distintas personas encargadas del almacén, así como distintos trabajadores para llevar a cabo el estudio.
-    - Implementé herramientas Lean Manufacturing para eficientar la pnatilla de trabajo.
+    - Utilized sophisticated analytical software such as Python and SQL to navigate through extensive datasets, revealing essential patterns and trends pivotal for making informed decisions.
+    - Implemented automated data cleansing and transformation protocols to drive ongoing improvement in data analysis methodologies, enhancing the efficiency and accuracy of analyses.
+    - Presented comprehensive data-driven reports and strategic recommendations to executive stakeholders, empowering informed decision-making and propelling business performance.
+
+- company:
+    name: Nestlé, Purina.
+    url: "https://purina.com.mx/purina"
+    location: León, Guanajuato
+    # company overview
+    overview: A company dedicated to enriching the lives of pets and the people who love them.
+  positions:
+  - designation: Production Analyst Intern
+    start: Aug. 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Dec. 2021
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Used of SAP software to support the daily activities of the Production Analyst role
+    - Weekly implementation and visualization of area evaluations such as 5’s, process trends and standards

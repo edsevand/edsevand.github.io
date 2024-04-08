@@ -11,25 +11,25 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Ingeniería Química
+- name: Chemical Engineering
   logo: "/images/sections/skills/iq.png"
-  summary: "Capacidad de análisis y resolución de problemas, optimización y simulación de equipos y procesos, haciendo uso de distintas disciplinas, así como de software especializado como Aspen Plus."
+  summary: "Ability to analyse and solve problems, optimisation and simulation of equipment and processes, making use of different disciplines, as well as specialised software such as Aspen Plus."
   url: https://www.aspentech.com/en/resources/brochure/aspen-plus-simulacion-de-proceso-industria-quimia#:~:text=Aspen%20Plus%20fomenta%20el%20desempe%C3%B1o,qu%C3%ADmicos%20de%20especialidad%20y%20farmac%C3%A9utica.
   
-- name: Programación
+- name: Data Analysis
   logo: "/images/sections/skills/python.png"
-  summary: "- Python como lenguaje principal, con capacidad de visualizar, manejar y analizar datos.
+  summary: "- Python for predictive analytics and modelling
 
-            - Power BI como herramienta de visualización y automatización de datos.
+            - SQL for data collection and pre-processing
+
+            - Power BI as a data visualisation and automation tool.
             
-            - Excel
-
-            - MySQL"
+            - Excel"
   url: https://udemy-certificate.s3.amazonaws.com/pdf/UC-fdea11c4-18b0-4fd4-aca7-52789e0b4f2b.pdf
 
 - name: Lenguajes
   logo: "/images/sections/skills/language.jpg"
-  summary: "- Español: lengua materna
+  summary: "- Spanish: Native Language
 
-            - Inglés: nivel avanzado. Academia Europea."
+            - English: Advanced. Academia Europea."
   url: https://academiaeuropea.com/

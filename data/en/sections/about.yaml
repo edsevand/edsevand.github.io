@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Ingeniero Químico
+designation: Chemical Engineer
 # your company information
 company:
   name: Universidad de Guanajuato.
@@ -18,7 +18,7 @@ company:
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Soy un apasionado Ingeniero Químico con un gusto por la programación. Me encuentro siempre en constante aprendizaje para implementar diferentes herramientas que permitan un aprendizaje más rápido y eficiente. Uso [Python](https://www.python.org/) para la carga, visualización, manejo y análisis de datos.'
+summary: 'As a passionate chemical engineer, I enjoy exploring the intersection between my field and programming. I am always looking for new tools that improve efficiency and speed of learning. I use [Python](https://www.python.org/) and SQL to load, visualise, manipulate and analyse data to provide comprehensive solutions in my projects.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -43,15 +43,18 @@ socialLinks:
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: Adaptación
-  percentage: 90
+- name: Meticulous attention to detail
+  percentage: 100
   color: blue
-- name: Resolución de problemas
-  percentage: 85
+- name: Identifying and resolving issues
+  percentage: 100
   color: green
-- name: Trabajo en equipo
+- name: Adaptation 
+  percentage: 100
+  color: red
+- name: Teamwork
   percentage: 90
   color: yellow
-- name: Proactivo
+- name: Proactive
   percentage: 90
   color: orange

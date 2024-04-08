@@ -30,15 +30,6 @@ projects:
   summary: Razones por las que un artículo se comparte.
   tags: ["professional", "python", "regresión lineal"]
 
-- name: Indicadores diarios
-  logo: /images/sections/projects/pbi.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  #repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: Automatización y visualización de indicadores diarios y semanales.
-  tags: ["professional", "machine-learning","academic"]
-
 - name: Árbol de decisión
   logo: /images/sections/projects/python.png
   role: Owner
