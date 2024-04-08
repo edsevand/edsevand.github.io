@@ -22,7 +22,7 @@ buttons:
 # your projects
 projects:
 - name: Keyword-linked table correlations 
-  logo: /images/sections/projects/python.png
+  logo: /images/sections/projects/mysql.png
   role: Developer
   timeline: "Present"
   repo: https://github.com/edsevand/SQL_Cars # If your project is a public repo on GitHub, then provide this link. it will show star count.
